@@ -24,8 +24,7 @@ interface TicketResult {
   priceIncrease: number;
 }
 
-// TODO: Replace with your actual serverless function URL for ticket pricing
-const TICKET_FUNCTION_URL = "https://your-serverless-function-url.com/api/ticket-price";
+const TICKET_FUNCTION_URL = "https://faas-blr1-8177d592.doserverless.co/api/v1/web/fn-747ca09c-87f4-4a23-b163-cf1a143ca682/default/dynamic-ticket-pricing";
 
 export function TicketPriceCalculator() {
   const [basePrice, setBasePrice] = useState("100");

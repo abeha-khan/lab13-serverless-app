@@ -19,8 +19,7 @@ interface SumResult {
   sum: number;
 }
 
-// TODO: Replace with your actual serverless function URL for sum calculation
-const SUM_FUNCTION_URL = "https://your-serverless-function-url.com/api/sum";
+const SUM_FUNCTION_URL = "https://faas-blr1-8177d592.doserverless.co/api/v1/web/fn-a256fcb2-9e54-4419-8533-b3d62dcce";
 
 export function SumCalculator() {
   const [num1, setNum1] = useState("10");
